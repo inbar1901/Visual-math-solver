@@ -1,6 +1,6 @@
 # Visual-math-solver
 
-Goal: reading handwritten equations, solve them and write back the solution in similar handwrite
+# Goal: reading handwritten equations, solve them and write back the solution in similar handwrite
 
 Visual math solver scripts manual:
 
