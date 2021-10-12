@@ -1,4 +1,5 @@
 Visual math solver scripts manual:
+Goal: reading handwritten equations, solve them and write back the solution in similar handwrite
 
 ###### ---------- requirements ---------- ###### 
 Python 3.6
