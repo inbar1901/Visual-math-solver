@@ -1,6 +1,7 @@
 # Visual-math-solver
 
-# Goal: reading handwritten equations, solve them and write back the solution in similar handwrite
+# Goal:
+reading handwritten equations, solve them and write back the solution in similar handwrite
 ## This project is based on HMER project https://github.com/whywhs/Pytorch-Handwritten-Mathematical-Expression-Recognition 
 
 
