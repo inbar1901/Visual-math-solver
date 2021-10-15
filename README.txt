@@ -1,6 +1,6 @@
 Visual math solver scripts manual:
 Goal: reading handwritten equations, solve them and write back the solution in similar handwrite
-
+This project is based on HMER project https://github.com/whywhs/Pytorch-Handwritten-Mathematical-Expression-Recognition
 ###### ---------- requirements ---------- ###### 
 Python 3.6
 Pytorch == 1.0
