@@ -1,8 +1,10 @@
 # Visual-math-solver
 
 # Goal: reading handwritten equations, solve them and write back the solution in similar handwrite
+## This project is based on HMER project https://github.com/whywhs/Pytorch-Handwritten-Mathematical-Expression-Recognition 
 
-Visual math solver scripts manual:
+
+### Visual math solver scripts manual:
 
 ###### ---------- requirements ---------- ###### 
 Python 3.6
@@ -24,7 +26,7 @@ Libraries -
   sklearn
 
 
-###### ---------- Project's scripts ---------- ###### 
+#### ---------- Project's scripts ---------- #### 
 
 Train HMER:
 1. Train - training the model
@@ -64,14 +66,14 @@ Run project:
 6. for_test_V20.py - used inside GUI to run the algorithm and recognize the image according to model
 7. DataPrePRocessingGui.py - pre process a white on black thin equation to netwotk's requirements
 
-###### ---------- Using project's abilities ---------- ###### 
+### ---------- Using project's abilities ---------- ### 
 
-### ---------- Download Data ---------- ###
+###### ---------- Download Data ---------- ######
 1. Download figures DataSet from https://www.kaggle.com/xainano/handwrittenmathsymbols and decompress it into DataSet folder
 2. Original HMER dataset download from https://github.com/whywhs/Pytorch-Handwritten-Mathematical-Expression-Recognition
 3. Download pretrained Densenet weights from https://download.pytorch.org/models/densenet121-a639ec97.pth
 
-### ---------- Create PCA-KMEANS clustering ---------- ###
+###### ---------- Create PCA-KMEANS clustering ---------- ######
 In clustering.py file:
   - Update path of figures DataSet (path, line 20)
   - Update run number for PCA & KMEANS clustering (run_number, line 21)
@@ -89,7 +91,7 @@ In createExamples.py file:
   - Update path to save the example matrix in (plt.savefig path, line 54)
   - Run createExamples.py
 
-### ---------- Create DataSet ---------- ###
+###### ---------- Create DataSet ---------- ######
 To create dataset contains numeric and paramtric equations use:
 1. DataCreatorNumOnlySameGroup.py
 2. DataCreatorParameterSameGroup.py 
@@ -111,7 +113,7 @@ another options for creating equations: (if you choose some of the below, follow
 5. DataCreatorNumOnly.py 
 6. DataCreatorParameter.py
 
-### ---------- Prepare DataSets for Network ---------- ###
+###### ---------- Prepare DataSets for Network ---------- ######
 Compress dataset's images into pkl file. In gen_pkl.py file:
   ! Do the following twice - once for train_set and once for test_set
   - Update image dataset path - same path as in "create dataset" section (image_path, line 15). 
@@ -119,7 +121,7 @@ Compress dataset's images into pkl file. In gen_pkl.py file:
   - Update caption file path (scpFile, line 25)
   - Run gen_pkl.py
 
-### ---------- Train the network ---------- ###
+###### ---------- Train the network ---------- ######
 In Train.py file:
   - Update train trainset (pkl file) and caption path (txt file) (datasets, line 50)
   - Update test testset (pkl file) and caption path (txt file) (valid_datasets, line 51)
@@ -128,14 +130,14 @@ In Train.py file:
   - Update train run number in trainLoss, WER, succ graph names and in model save name (lines 537-538)
   - Run the training 
 
-### ---------- Test the trained model ---------- ###
+###### ---------- Test the trained model ---------- ######
 In Densenet_testway.py file:
   - Update test testset (pkl file) and caption path (valid_datasets, line 50)
   - Update dictionary path (dictionaries, line 51)
   - Update trained models path (encoder.load_state_dict, line 155 + attn_decoder1.load_state_dict, line 156)
   - Run Densenet_testway.py
 
-### ---------- Activate Project ---------- ###
+###### ---------- Activate Project ---------- ######
 Occures through the GUI OurTK.py. In order to use it correctily:
 In isDigitAppear.py file:
   - Update run number of PCA & KMEANS clustering (run_number, line 21)
