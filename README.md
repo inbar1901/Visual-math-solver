@@ -1,4 +1,6 @@
 # Visual-math-solver
+This work has been done by Inbar Ackerman & Noa Shoham as project A in EE studies Supervised by Elad Hirsh
+
 
 ## Goal:
 reading handwritten equations, solve them and write back the solution in similar handwrite
