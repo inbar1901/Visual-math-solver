@@ -178,5 +178,10 @@ Inside the GUI:
     Equation type - parametric/numeric
     Result image
 
+
+### ---------- Project's results examples ---------- ###
+
 ![Picture1](https://user-images.githubusercontent.com/74064553/137575302-28e43a81-e233-4315-9a02-b0c3472c7a4d.png)
+<img width=<img width="651" alt="Picture3" src="https://user-images.githubusercontent.com/74064553/137575335-9833ac51-0242-44a3-a027-5638e6989009.png">
+"644" alt="Picture2" src="https://user-images.githubusercontent.com/74064553/137575333-8b68074d-7f56-41bd-a1f4-48d411798cc3.png">
 
