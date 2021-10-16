@@ -1,5 +1,5 @@
 # Visual-math-solver
-This work has been done by Inbar Ackerman & Noa Shoham as project A in EE studies Supervised by Elad Hirsh
+This work has been done by Inbar Ackerman & Noa Shoham as project A in EE faculty, Technion, Supervised by Elad Hirsh
 
 
 ## Goal:
