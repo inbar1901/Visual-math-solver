@@ -10,7 +10,7 @@ reading handwritten equations, solve them and write back the solution in similar
 
 ## Visual math solver scripts manual:
 
-###### ---------- requirements ---------- ###### 
+### ---------- requirements ---------- ### 
 Python == 3.6
 
 Pytorch == 1.0
