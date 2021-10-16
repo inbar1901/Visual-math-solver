@@ -5,6 +5,7 @@ reading handwritten equations, solve them and write back the solution in similar
 ### This project is based on HMER project https://github.com/whywhs/Pytorch-Handwritten-Mathematical-Expression-Recognition 
 
 
+
 ### Visual math solver scripts manual:
 
 ###### ---------- requirements ---------- ###### 
@@ -13,19 +14,19 @@ Python == 3.6
 Pytorch == 1.0
 
 Libraries -
-  pickle
-  numpy
-  cv2
-  scipy
-  os
-  random
-  tkinter
-  PIL
-  torch
-  re
-  sympy
-  matplotlib
-  joblib
+  pickle,
+  numpy,
+  cv2,
+  scipy,
+  os,
+  random,
+  tkinter,
+  PIL,
+  torch,
+  re,
+  sympy,
+  matplotlib,
+  joblib,
   sklearn
 
 
