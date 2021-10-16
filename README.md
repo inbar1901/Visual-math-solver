@@ -177,3 +177,6 @@ Inside the GUI:
     Solution
     Equation type - parametric/numeric
     Result image
+
+![Picture1](https://user-images.githubusercontent.com/74064553/137575302-28e43a81-e233-4315-9a02-b0c3472c7a4d.png)
+
