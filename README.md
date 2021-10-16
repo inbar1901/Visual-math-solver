@@ -32,7 +32,7 @@ Libraries -
   sklearn
 
 
-#### ---------- Project's scripts ---------- #### 
+### ---------- Project's scripts ---------- ###
 
 Train HMER:
 1. Train - training the model
