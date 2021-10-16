@@ -184,7 +184,7 @@ Inside the GUI:
 ![Picture1](https://user-images.githubusercontent.com/74064553/137575302-28e43a81-e233-4315-9a02-b0c3472c7a4d.png)
 
 
-<img width="800" alt="Picture2" src="https://user-images.githubusercontent.com/74064553/137575352-d426fc82-e20a-48a5-b14d-7d5ace014ac5.png">
-<img width="800" alt="Picture3" src="https://user-images.githubusercontent.com/74064553/137575354-9798b006-41a0-4a34-9e81-5670b4ac7b69.png">
+<img width="900" alt="Picture2" src="https://user-images.githubusercontent.com/74064553/137575352-d426fc82-e20a-48a5-b14d-7d5ace014ac5.png">
+<img width="900" alt="Picture3" src="https://user-images.githubusercontent.com/74064553/137575354-9798b006-41a0-4a34-9e81-5670b4ac7b69.png">
 
 
