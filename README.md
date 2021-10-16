@@ -79,21 +79,21 @@ Run project:
 
 ###### ---------- Create PCA-KMEANS clustering ---------- ######
 In clustering.py file:
-  - Update path of figures DataSet (path, line 20)
-  - Update run number for PCA & KMEANS clustering (run_number, line 21)
-  - Choose amount of KMEANS groups (groups_amount, line 22)
-  - Choose amount of PCA components (n_components, line 38)
-  - Update model folder - where to save the models of PCA & KMEANS (filename - lines 41 and 47, one for PCA and one for KMEANS)
-  - Run clustering.py (it will run also createDataset.py)
+  1. Update path of figures DataSet (path, line 20)
+  2. Update run number for PCA & KMEANS clustering (run_number, line 21)
+  3. Choose amount of KMEANS groups (groups_amount, line 22)
+  4. Choose amount of PCA components (n_components, line 38)
+  5. Update model folder - where to save the models of PCA & KMEANS (filename - lines 41 and 47, one for PCA and one for KMEANS)
+  6. Run clustering.py (it will run also createDataset.py)
 
 In order to create tables of examples of each clustering group ***Not necessary for working network
 In createExamples.py file:
-  - Update path of figures DataSet (folder_path, line 20)
-  - Update run number for PCA & KMEANS clustering (run_number, line 21)
-  - Update the PCA & KMEANS models folder path (model_path, line 21)
-  - Verify that KMEANS group amount is as in the model (groups_amount, line 30)
-  - Update path to save the example matrix in (plt.savefig path, line 54)
-  - Run createExamples.py
+  1. Update path of figures DataSet (folder_path, line 20)
+  2. Update run number for PCA & KMEANS clustering (run_number, line 21)
+  3. Update the PCA & KMEANS models folder path (model_path, line 21)
+  4. Verify that KMEANS group amount is as in the model (groups_amount, line 30)
+  5. Update path to save the example matrix in (plt.savefig path, line 54)
+  6. Run createExamples.py
 
 ###### ---------- Create DataSet ---------- ######
 To create dataset contains numeric and paramtric equations use:
@@ -120,51 +120,51 @@ another options for creating equations: (if you choose some of the below, follow
 ###### ---------- Prepare DataSets for Network ---------- ######
 Compress dataset's images into pkl file. In gen_pkl.py file:
   ! Do the following twice - once for train_set and once for test_set
-  - Update image dataset path - same path as in "create dataset" section (image_path, line 15). 
-  - Update output file name (outFile, line 16)
-  - Update caption file path (scpFile, line 25)
-  - Run gen_pkl.py
+  1. Update image dataset path - same path as in "create dataset" section (image_path, line 15). 
+  2. Update output file name (outFile, line 16)
+  3. Update caption file path (scpFile, line 25)
+  4. Run gen_pkl.py
 
 ###### ---------- Train the network ---------- ######
 In Train.py file:
-  - Update train trainset (pkl file) and caption path (txt file) (datasets, line 50)
-  - Update test testset (pkl file) and caption path (txt file) (valid_datasets, line 51)
-  - Update dictionary path (dictionaries, line 52)
-  - Update densenet121 file path (pthfile, line 280)
-  - Update train run number in trainLoss, WER, succ graph names and in model save name (lines 537-538)
-  - Run the training 
+  1. Update train trainset (pkl file) and caption path (txt file) (datasets, line 50)
+  2. Update test testset (pkl file) and caption path (txt file) (valid_datasets, line 51)
+  3. Update dictionary path (dictionaries, line 52)
+  4. Update densenet121 file path (pthfile, line 280)
+  5. Update train run number in trainLoss, WER, succ graph names and in model save name (lines 537-538)
+  6. Run the training 
 
 ###### ---------- Test the trained model ---------- ######
 In Densenet_testway.py file:
-  - Update test testset (pkl file) and caption path (valid_datasets, line 50)
-  - Update dictionary path (dictionaries, line 51)
-  - Update trained models path (encoder.load_state_dict, line 155 + attn_decoder1.load_state_dict, line 156)
-  - Run Densenet_testway.py
+  1. Update test testset (pkl file) and caption path (valid_datasets, line 50)
+  2. Update dictionary path (dictionaries, line 51)
+  3. Update trained models path (encoder.load_state_dict, line 155 + attn_decoder1.load_state_dict, line 156)
+  4. Run Densenet_testway.py
 
 ###### ---------- Activate Project ---------- ######
 Occures through the GUI OurTK.py. In order to use it correctily:
 In isDigitAppear.py file:
-  - Update run number of PCA & KMEANS clustering (run_number, line 21)
-  - Update PCA & KMEANS model folder (model_path, line 22)
-  - Update path of figures DataSet (random_image_in_group_path, line 60 + random_img_path, line 36)
+  1. Update run number of PCA & KMEANS clustering (run_number, line 21)
+  2. Update PCA & KMEANS model folder (model_path, line 22)
+  3. Update path of figures DataSet (random_image_in_group_path, line 60 + random_img_path, line 36)
 
 In isParamAppear.py file:
-    - Update run number of PCA & KMEANS clustering (run_number, line 21)
-    - Update PCA & KMEANS model folder (model_path, line 22)
-    - Update path of figures DataSet (random_image_in_group_path, line 97 + random_img_path, lines 51-73  + eq_img_path, line 30)
+    1. Update run number of PCA & KMEANS clustering (run_number, line 21)
+    2. Update PCA & KMEANS model folder (model_path, line 22)
+    3. Update path of figures DataSet (random_image_in_group_path, line 97 + random_img_path, lines 51-73  + eq_img_path, line 30)
 
 In matchGroup.py file:
-    - Update PCA & KMEANS model folder (model_path, line 19)
-    - Update path of figures DataSet (folder_path, line 20)
-    - Update equation saved folder (final.save path, line 34)
+    1. Update PCA & KMEANS model folder (model_path, line 19)
+    2. Update path of figures DataSet (folder_path, line 20)
+    3. Update equation saved folder (final.save path, line 34)
 
 In HMER_v2.0/for_test_V20.py file:
-  - Update dictionary name and path (dictionaries, line 22)
-  - Update trained models path (encoder.load_state_dict, line 56 + attn_decoder1.load_state_dict, line 57)
+  1. Update dictionary name and path (dictionaries, line 22)
+  2. Update trained models path (encoder.load_state_dict, line 56 + attn_decoder1.load_state_dict, line 57)
 
 In HMER_v2.0/OurTK.py file:
-  - Update folder path to select image from (initialdir, line )
-  - Run OurTK.py (runs inside - for_test_V20, isDigitAppear, isParamAppear, find_figures_in_eq, matchGroup)
+  1. Update folder path to select image from (initialdir, line )
+  2. Run OurTK.py (runs inside - for_test_V20, isDigitAppear, isParamAppear, find_figures_in_eq, matchGroup)
 
 Inside the GUI:
   1. Click "Load Equation" and choose the image equation you want to solve
