@@ -8,7 +8,7 @@ reading handwritten equations, solve them and write back the solution in similar
 
 
 
-### Visual math solver scripts manual:
+## Visual math solver scripts manual:
 
 ###### ---------- requirements ---------- ###### 
 Python == 3.6
